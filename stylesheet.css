@@ -1,0 +1,391 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+header
+{
+    
+        background: url(aset-gambar/food2.png);
+        height: auto;    
+        background-size: cover;
+        width: 100%;
+        margin-bottom: 60px;
+}
+
+
+
+.hamburger
+{
+    color: white;
+   
+    right: 40px;
+    top: 20xp;
+    display: none;
+    width: 40px;
+    font-size: 38px;
+    position: absolute;
+}
+
+
+
+
+nav
+{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    line-height: 70px;
+    justify-content: center;
+    position: sticky;
+    top: 0;    
+    background: rgba(211, 116, 26, 0.8);
+
+}
+nav img
+{
+    padding-top: 10px;
+    left: 10px;
+    position: absolute;
+}
+
+nav ul
+{
+    display: flex;
+}
+nav ul li 
+{
+    list-style: none;
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin: 0 30px;
+}
+
+
+nav ul li a
+{
+    text-decoration: aliceblue;
+    color: aliceblue;
+        
+    padding: 8px 8px;
+    font-family: 'EB Garamond', serif;
+}
+
+
+nav ul li a:hover
+{
+    padding: 23px 13px;
+    transition: .5s;
+    background: rgb(230, 197, 14);
+    color: rgba(0,0,0,.5); 
+    font-weight: 500;
+    border-bottom: 4px solid white;
+}
+
+nav ul .active
+{   
+    padding: 0 3px;
+    background: rgba(245, 200, 0, 0.8);
+}
+
+nav ul .active:hover
+{
+    background: none;
+    transition: .5s;
+}
+
+.main-text
+{
+    
+    margin-top: 200px;
+    margin-left: 15px;
+}
+
+.main-text h1
+{
+    font-size: 44px;
+    letter-spacing: 1px;
+    font-weight: 900;
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(250, 214, 8);
+}
+header button
+{
+    margin-top: 30px;
+    width: 90px;
+    height: 40px;
+    border: none;
+    transform: scale(1);
+    border-radius: 3px; 
+    background: rgba(211, 116, 26, .9);
+    margin-left: 15px;
+    letter-spacing: .5px;
+    font-weight: 600;
+    font-family: 'Shadows Into Light', cursive;
+    margin-bottom: 200px;
+}
+
+header button:hover
+{
+    transform: scale(1.2);
+    background: rgba(255,255,255,1);
+
+    transition: .5s;
+    cursor: pointer;
+}
+
+
+
+
+/* header end */
+
+
+
+
+/* main */
+
+
+
+
+
+.wrapper-halaman
+{
+    max-width: 90%;
+    height: 675px;
+    background: white;
+    margin: 0 auto;
+    
+}
+
+
+.wrapper-halaman .menu
+{
+    width: 100%;
+    height: 600px;
+    
+
+    z-index: 5;
+    left: 8%;
+    top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+
+.menu-section
+{
+    width: 25%;
+    background: gray;
+    height: 300px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.menu-section:hover
+{
+    background: rgb(185, 184, 184);
+    cursor: pointer;
+   
+}
+.menu-section h2
+{
+    text-align: center;
+    margin-top: 85px;
+    
+    margin-bottom: 66px;
+}
+.menu-section span
+{
+    border-bottom: 2.5px solid rgb(185, 121, 0);
+    padding-bottom: 24px;
+    cursor: pointer;
+}
+
+
+.menu-section span:hover
+{
+    border-bottom: 3px solid gold;
+    transition: .5s;
+}
+
+.menu-section p
+{
+    margin: 0 17px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    /* Change the background-color to #2f5167 */
+      background-color: #2f5167;
+  
+      /* Change the color to #fff */
+      color: #fff;
+  
+      height: 300px;
+      bottom: 0px;
+      width: 100%;
+      position: ;
+        bottom: 0;
+        position: relative;
+    }
+  
+    
+    footer .footer-wrapper 
+    {
+      width: 90%;
+      height: 250px;
+      margin: 0 auto;
+    }
+    
+    
+    .footer-wrapper
+    {
+      display: flex;
+    }
+  
+    footer .footer-wrapper .left
+    {
+      height: 100%;
+      width: 40%;
+    }
+    footer .footer-wrapper .left img /*logo*/
+    {
+      width: 155px;
+      height: 36px;
+    }
+    footer .footer-wrapper iframe /*map*/
+    {
+      width: 70%;
+      height: 200px;
+      margin-left: 15%;
+    }
+  
+                        /*left end*/
+  
+                        /*center*/
+    footer .footer-wrapper .center
+    {
+      width: 30%;
+      height: 100%;
+      font-size: 25px;
+    }
+    .footer-about ul
+    {
+      border-top: 3px solid gray;
+    }
+    .footer-about h2
+    {
+      font-size: 30px;
+    }
+  
+    .footer-about p
+    {
+      font-size: 18px;
+      margin-bottom: 5px;
+    }
+  
+    .footer-about li 
+    {
+      font-size: 15.3px;
+      margin-top: 5px;
+      list-style: none;
+    }
+  
+  
+  
+                            /* center end */
+  
+                               /*right*/
+  
+    footer .footer-wrapper .right
+    {
+      width: 30%;
+      height: 100%;
+    }
+  
+    footer .footer-wrapper .right .footer-list ul li
+    {
+      list-style: none;
+    }
+  
+    footer .footer-wrapper .right .footer-list
+    {
+      margin: 20px 0 0 10px;
+      font-size: 18px;
+    }
+    .right input
+    {
+      height: 25px;
+      border-radius: 3px;
+      border: none;
+      margin-left: 15px;
+      margin-top: 3px;
+    }
+    .right textarea
+    {
+      width: 210px;
+      height: 75px;
+      margin-left: 15px;
+      border: none;
+      border-radius: 3px;
+      margin-top: 5px;
+    }
+  
+    .right button
+    {
+      width: 60px;
+      height: 25px;
+      margin: 6px 0 10;
+      margin-left: 15px;
+      margin-top: 5px;
+      transform: scale(1);
+      border: none;
+      border-radius: 4px;
+      background: whitesmoke;
+      cursor: pointer;
+    }
+    .right .button-footer:hover
+    {
+      transform: scale(1.2);
+      transition: .4s;
+      background:rgba(255, 255, 255, .9);
+    }
+    .right .button-footer:active
+    {
+      background: gray;
+      
+    }
+  
+  
+  
+                              /* center end */
+  
+                              /*copy right */
+    footer .copy-right
+    {
+      position: absolute;
+      bottom: 0;
+      background: #1c4a69;
+      text-align: center;
+      width: 100%;
+      line-height: 50px;
+    }
+  
